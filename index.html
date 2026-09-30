@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoạt Hình Vietsub - Phim Cho Bé</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER CỐ ĐỊNH -->
+    <header class="header">
+        <div class="logo">
+            <a href="#">🎬 HOẠT HÌNH KID</a>
+        </div>
+        
+        <!-- Tìm kiếm -->
+        <div class="search-bar">
+            <input type="text" placeholder="Tìm kiếm phim hoạt hình...">
+            <button>Tìm kiếm</button>
+        </div>
+
+        <!-- HEAD-LINK -->
+        <nav class="head-link">
+            <a href="#">Trang chủ</a>
+            <a href="#">Mới cập nhật</a>
+            <a href="#">Xem nhiều nhất</a>
+            <a href="#">Thể loại</a>
+        </nav>
+    </header>
+
+    <!-- KHUNG BỐ CỤC CHÍNH (CONTENT) -->
+    <div class="content-container">
+        
+        <!-- LEFT CONTENT: Menu danh sách video -->
+        <aside class="left-content">
+            <h3>Danh sách video</h3>
+            <ul class="video-list">
+                <li class="active">
+                    <a href="#video-1">
+                        <img src="https://picsum.photos/80/50?random=1" alt="Phim 1">
+                        <span>Phim 1: Hành trình khám phá (YouTube)</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#video-2">
+                        <img src="https://picsum.photos/80/50?random=2" alt="Phim 2">
+                        <span>Phim 2: Chú thỏ thông minh (HTML5)</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#video-3">
+                        <img src="https://picsum.photos/80/50?random=3" alt="Phim 3">
+                        <span>Phim 3: Cuộc phiêu lưu kỳ thú</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#video-4">
+                        <img src="https://picsum.photos/80/50?random=4" alt="Phim 4">
+                        <span>Phim 4: Thế giới động vật</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- RIGHT CONTENT: Khu vực phát video -->
+        <main class="right-content">
+            <h2>Đang phát: Phim 1 - Hành trình khám phá (FullHD 1080p)</h2>
+            
+            <!-- Video nhúng bằng <iframe> từ YouTube -->
+            <div class="video-player-wrapper">
+                <iframe 
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- Ví dụ phát video bằng thẻ <video> HTML5 -->
+            <h3 style="margin-top: 30px;">Video xem trước (Thẻ &lt;video&gt; HTML5)</h3>
+            <div class="video-player-wrapper-html5">
+                <video controls width="100%">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ thẻ video HTML5.
+                </video>
+            </div>
+
+            <div class="video-info">
+                <h3>Mô tả phim</h3>
+                <p>Bộ phim hoạt hình chọn lọc dành riêng cho trẻ em với thuyết minh tiếng Việt chuẩn chất lượng cao 1080p, không chứa quảng cáo gây phiền phức.</p>
+            </div>
+        </main>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 Website Xem Hoạt Hình Trực Tuyến Dành Cho Trẻ Em. Bản quyền thuộc về Bạn.</p>
+    </footer>
+
+</body>
+</html>
